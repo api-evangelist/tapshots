@@ -1,7 +1,25 @@
 aid: tapshots
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tapshots.png
 name: Tapshots
-description: Tapshots is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tapshot, Inc. (marketed as Videokits) is a Cupertino, California company founded in 2012 that
+  builds a mobile-first video capture and survey platform. Its Videokits Pro apps guide users through
+  structured "kits" of survey questions and shot lists to capture video interviews and NPS/demographic
+  survey responses in the field, then upload them to a web portal for storage, transcoding, streaming, and
+  analysis. The company was surfaced as a 500 Global portfolio company and added to the API Evangelist
+  network for enrichment. As of this pass the public website (videokits.com) does not respond and no
+  developer/API surface (OpenAPI, SDK, developer portal, or GitHub organization) could be found; the
+  iOS/iPad app was last updated June 2023, indicating a dormant product.
 url: https://raw.githubusercontent.com/api-evangelist/tapshots/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,18 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: dormant
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Video
+- Mobile
+- Video Capture
+- Survey
+- Market Research
+- Video Production
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,14 @@ maintainers:
 common:
 - type: Website
   url: https://videokits.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tapshot-inc-
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/tapshot
+- type: MobileApp
+  url: https://apps.apple.com/us/app/videokits-pro/id913396081
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
